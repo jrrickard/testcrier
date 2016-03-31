@@ -6,6 +6,13 @@
 # Folders
 _obj
 _test
+dist
+pkg
+bin
+golang.org/
+julienschmidt/
+nlopes/
+stretchr/
 
 # Architecture specific extensions/prefixes
 *.[568vq]
