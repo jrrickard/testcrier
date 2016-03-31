@@ -211,5 +211,5 @@ func main() {
 
 	router := httprouter.New()
 	router.POST("/test/:name", HandleTestSuite)
-	log.Fatal(http.ListenAndServe(":10000", router))
+	log.Fatal(http.ListenAndServe(":8080", router))
 }
